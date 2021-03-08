@@ -7,12 +7,11 @@ import LanguageIcon from "@material-ui/icons/Language";
 import AirplayIcon from "@material-ui/icons/Airplay";
 import WbIncandescentIcon from "@material-ui/icons/WbIncandescent";
 import pstack from "../assets/images/pstack.jpg";
-import myImage2 from "../assets/images/image-2.jpg";
 import pythonData from "../assets/certificate/pythoncert.jpg";
 import pythonUdemy from "../assets/certificate/pythonudemy.jpg";
 
 import PinterestIcon from "@material-ui/icons/Pinterest";
-export default {
+const resumeData = {
   name: "Sanjeev Das",
   title: "Full Stack Developer",
   birdthdate: "20th July 1996",
@@ -203,3 +202,4 @@ export default {
     },
   ],
 };
+export default resumeData;

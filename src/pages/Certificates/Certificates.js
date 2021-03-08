@@ -119,7 +119,12 @@ const Certificates = () => {
         </DialogContent>
         <DialogActions className="projectdialog_actions">
           {projectDialog?.links?.map((link) => (
-            <a href={link.link} target="_blank" className="projectdialog_icon">
+            <a
+              href={link.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="projectdialog_icon"
+            >
               {link.icon}
             </a>
           ))}

@@ -5,7 +5,7 @@ import CustomButton from "../Button/Button";
 import { Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
 import { HomeRounded, Telegram } from "@material-ui/icons";
-import { Link, NavLink, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 const Header = (prop) => {
   const pathName = prop?.location?.pathname;
   return (
@@ -46,7 +46,11 @@ const Header = (prop) => {
         </Nav>
         <div className="header_right">
           {Object.keys(resumeData.social).map((key) => (
-            <a href={resumeData.social[key].link} target="_blank">
+            <a
+              href={resumeData.social[key].link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {resumeData.social[key].icon}
             </a>
           ))}

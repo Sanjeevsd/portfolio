@@ -1,7 +1,6 @@
 import { Typography } from "@material-ui/core";
 import React from "react";
 import "./Footer.css";
-import resumeData from "../../utils/resumeData";
 const Footer = () => {
   return (
     <div className="footer">
@@ -13,7 +12,11 @@ const Footer = () => {
       <div className="footer_right">
         <Typography className="footer_copyright">
           Designed and Developed by{" "}
-          <a href="" target="_bank">
+          <a
+            href="https://www.facebook.com/sanzeevd"
+            target="_bank"
+            rel="noopener noreferrer"
+          >
             Sanjeev Das
           </a>
         </Typography>

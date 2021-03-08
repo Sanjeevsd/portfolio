@@ -9,9 +9,9 @@ import CustomTimeline, {
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../../components/Button/Button";
 import TimelineItem from "@material-ui/lab/TimelineItem";
-import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
+
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import TimelineConnector from "@material-ui/lab/TimelineConnector";
+
 import TimelineContent from "@material-ui/lab/TimelineContent";
 const Cv = () => {
   return (

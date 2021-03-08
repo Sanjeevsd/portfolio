@@ -17,7 +17,7 @@ const CustomTimelinItem = ({ title, text, link }) => (
       {link ? (
         <Typography className="timelineitem_text">
           <span>{title}: </span>
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             {text}
           </a>
         </Typography>

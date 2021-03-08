@@ -40,7 +40,7 @@ const Portfolio = () => {
             label="All"
             value="All"
             className={
-              tabValue == "All" ? "customtabs_item active" : "customtabs_item"
+              tabValue === "All" ? "customtabs_item active" : "customtabs_item"
             }
           />
           {[...new Set(resumeData.portfolio.map((item) => item.tag))].map(
@@ -49,7 +49,9 @@ const Portfolio = () => {
                 label={tag}
                 value={tag}
                 className={
-                  tabValue == tag ? "customtabs_item active" : "customtabs_item"
+                  tabValue === tag
+                    ? "customtabs_item active"
+                    : "customtabs_item"
                 }
               />
             )
@@ -117,7 +119,12 @@ const Portfolio = () => {
         </DialogContent>
         <DialogActions className="projectdialog_actions">
           {projectDialog?.links?.map((link) => (
-            <a href={link.link} target="_blank" className="projectdialog_icon">
+            <a
+              href={link.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="projectdialog_icon"
+            >
               {link.icon}
             </a>
           ))}
