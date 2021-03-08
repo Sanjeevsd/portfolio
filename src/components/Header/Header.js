@@ -21,7 +21,7 @@ const Header = (prop) => {
           <Nav.Link
             as={NavLink}
             to="/"
-            className={pathName == "/" ? "header_link_active" : "header_link"}
+            className={pathName === "/" ? "header_link_active" : "header_link"}
           >
             CV
           </Nav.Link>
@@ -29,10 +29,19 @@ const Header = (prop) => {
             as={NavLink}
             to="/portfolio"
             className={
-              pathName == "/portfolio" ? "header_link_active" : "header_link"
+              pathName === "/portfolio" ? "header_link_active" : "header_link"
             }
           >
             Portfolio
+          </Nav.Link>
+          <Nav.Link
+            as={NavLink}
+            to="/certificate"
+            className={
+              pathName === "/certificate" ? "header_link_active" : "header_link"
+            }
+          >
+            Certificate
           </Nav.Link>
         </Nav>
         <div className="header_right">

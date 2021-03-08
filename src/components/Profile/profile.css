@@ -59,3 +59,10 @@
   justify-content: center;
   margin-top: 15px;
 }
+.profile .btn_container > a {
+  text-decoration: none;
+}
+
+.profile .btn_container > a :hover {
+  text-decoration: none;
+}

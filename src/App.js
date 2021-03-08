@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Grid } from "@material-ui/core";
 import Profile from "./components/Profile/Profile";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import Certificates from "./pages/Certificates/Certificates";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Cv from "./pages/Cv/Cv";
@@ -22,6 +23,9 @@ function App() {
               <Switch>
                 <Route path="/portfolio">
                   <Portfolio />
+                </Route>
+                <Route path="/certificate">
+                  <Certificates />
                 </Route>
                 <Route path="/">
                   <Cv />

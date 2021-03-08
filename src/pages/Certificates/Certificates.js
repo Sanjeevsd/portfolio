@@ -14,10 +14,10 @@ import {
   DialogActions,
 } from "@material-ui/core";
 import React, { useState } from "react";
-import "./Portfolio.css";
+import "./Certificates.css";
 import resumeData from "../../utils/resumeData";
 
-const Portfolio = () => {
+const Certificates = () => {
   const [tabValue, setTabValue] = useState("All");
   const [projectDialog, setProjectDialog] = useState(false);
 
@@ -25,7 +25,7 @@ const Portfolio = () => {
     <Grid container spacing={1} className="section pb_45 pt_30">
       <Grid item className="section_title mb_30">
         <span></span>
-        <h6 className="section_title_text">Portfolio</h6>
+        <h6 className="section_title_text">Certificates</h6>
       </Grid>
 
       {/* tabs */}
@@ -40,16 +40,18 @@ const Portfolio = () => {
             label="All"
             value="All"
             className={
-              tabValue == "All" ? "customtabs_item active" : "customtabs_item"
+              tabValue === "All" ? "customtabs_item active" : "customtabs_item"
             }
           />
-          {[...new Set(resumeData.portfolio.map((item) => item.tag))].map(
+          {[...new Set(resumeData.certificate.map((item) => item.tag))].map(
             (tag) => (
               <Tab
                 label={tag}
                 value={tag}
                 className={
-                  tabValue == tag ? "customtabs_item active" : "customtabs_item"
+                  tabValue === tag
+                    ? "customtabs_item active"
+                    : "customtabs_item"
                 }
               />
             )
@@ -59,7 +61,7 @@ const Portfolio = () => {
       {/* projects */}
       <Grid item xs={12}>
         <Grid spacing={3} container>
-          {resumeData.portfolio.map((project) => (
+          {resumeData.certificate.map((project) => (
             <>
               {tabValue === project.tag || tabValue === "All" ? (
                 <Grid item xs={12} sm={6} md={4}>
@@ -127,4 +129,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Certificates;

@@ -8,8 +8,9 @@ import AirplayIcon from "@material-ui/icons/Airplay";
 import WbIncandescentIcon from "@material-ui/icons/WbIncandescent";
 import pstack from "../assets/images/pstack.jpg";
 import myImage2 from "../assets/images/image-2.jpg";
-import myImage3 from "../assets/images/image-3.jpg";
-import myImage4 from "../assets/images/image-4.jpg";
+import pythonData from "../assets/certificate/pythoncert.jpg";
+import pythonUdemy from "../assets/certificate/pythonudemy.jpg";
+
 import PinterestIcon from "@material-ui/icons/Pinterest";
 export default {
   name: "Sanjeev Das",
@@ -171,6 +172,32 @@ export default {
         {
           link: "https://github.com/Sanjeevsd/yolo-with-django",
           icon: <GitHubIcon />,
+        },
+      ],
+    },
+  ],
+
+  certificate: [
+    {
+      tag: "Python",
+      image: pythonData,
+      title: "Data Camp Intermediate Python ",
+      caption: "Certification of intermediate Python course from datacamp.",
+      description: "Certification of intermediate Python course from datacamp.",
+      links: [{ link: "https://www.datacamp.com/", icon: <LanguageIcon /> }],
+    },
+    {
+      tag: "Python",
+      image: pythonUdemy,
+      title: "Automate Booring Stuff with Python",
+      caption:
+        "Certification of completion of Automate Booring stuff with python course by Al Sweigart",
+      description:
+        "Certification of completion of Automate Booring stuff with python course by Al Sweigart",
+      links: [
+        {
+          link: "https://www.udemy.com/course/automate/",
+          icon: <LanguageIcon />,
         },
       ],
     },
