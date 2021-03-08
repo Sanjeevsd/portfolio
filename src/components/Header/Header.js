@@ -4,15 +4,7 @@ import resumeData from "../../utils/resumeData";
 import CustomButton from "../Button/Button";
 import { Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
-import {
-  HomeRounded,
-  SchoolRounded,
-  Facebook,
-  GitHub,
-  Instagram,
-  WorkRounded,
-  Telegram,
-} from "@material-ui/icons";
+import { HomeRounded, Telegram } from "@material-ui/icons";
 import { Link, NavLink, withRouter } from "react-router-dom";
 const Header = (prop) => {
   const pathName = prop?.location?.pathname;
