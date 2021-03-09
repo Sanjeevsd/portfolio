@@ -2,7 +2,6 @@ import "./App.css";
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
 import Profile from "./components/Profile/Profile";
-import myimage from "./assets/images/profile.jpg";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Certificates from "./pages/Certificates/Certificates";
 import Header from "./components/Header/Header";
