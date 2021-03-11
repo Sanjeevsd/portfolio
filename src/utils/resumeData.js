@@ -19,7 +19,7 @@ const resumeData = {
   address: "KTM Nepal",
   phone: "9818192165",
   about_me:
-    "I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software/Programs like Web Apps, Desktop Apps, AI/ML models, Mobile applications.I Have interest in Fullstack devlopment and AI/machine Learning. \n\n What would you do if you had a software expert available at your fingertips? Find out by reaching with out to me.",
+    "I am a software engineer passionate about building excellent software that improves the lives of those around me. I specialize in creating software/Programs like Web Apps, Desktop Apps, AI/ML models, Mobile applications.I Have interest in Fullstack devlopment and AI/machine Learning. \n\n What would you do if you had a software expert available at your fingertips? Find out by reaching with out to me.",
   social: {
     Facebook: {
       link: "https://www.facebook.com/sanzeevd",
