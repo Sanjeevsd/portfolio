@@ -14,12 +14,12 @@ import PinterestIcon from "@material-ui/icons/Pinterest";
 const resumeData = {
   name: "Sanjeev Das",
   title: "Full Stack Developer",
-  birdthdate: "20th July 1996",
+  birdthdate: "20th July 1997",
   email: "memyselfsd11@gmail.com",
   address: "KTM Nepal",
   phone: "9818192165",
   about_me:
-    "I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software/Programs  ranging from individuals and small-businesses all the way to large enterprise corporations :p.I Have interest in Fullstack devlopment and AI/machine Learning. \n\n What would you do if you had a software expert available at your fingertips?",
+    "I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software/Programs like Web Apps, Desktop Apps, AI/ML models, Mobile applications.I Have interest in Fullstack devlopment and AI/machine Learning. \n\n What would you do if you had a software expert available at your fingertips? Find out by reaching with out to me.",
   social: {
     Facebook: {
       link: "https://www.facebook.com/sanzeevd",
@@ -32,7 +32,7 @@ const resumeData = {
       icon: <GitHubIcon />,
     },
     Instagram: {
-      link: "https://www.facebook.com/sanzeevd",
+      link: "https://www.instagram.com/sanzeev1914/",
       text: "MyInstagram",
       icon: <InstagramIcon />,
     },

@@ -25,7 +25,7 @@ const Certificates = () => {
     <Grid container spacing={1} className="section pb_45 pt_30">
       <Grid item className="section_title mb_30">
         <span></span>
-        <h6 className="section_title_text">Certificates</h6>
+        <h1 className="section_title_text">Certificates</h1>
       </Grid>
 
       {/* tabs */}

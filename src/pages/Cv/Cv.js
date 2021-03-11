@@ -20,9 +20,9 @@ const Cv = () => {
       <Grid container className="section pb_45 pt_30">
         <Grid item className="section_title mb_30">
           <span></span>
-          <h6 variant="h6" className="section_title_text">
+          <h1 variant="h6" className="section_title_text">
             About Me
-          </h6>
+          </h1>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="body_2" className="aboutme_text">
@@ -34,9 +34,9 @@ const Cv = () => {
       <Grid container className="section pb_45">
         <Grid item className="section_title mb_30">
           <span></span>
-          <h6 variant="h6" className="section_title_text">
+          <h1 variant="h6" className="section_title_text">
             CV
-          </h6>
+          </h1>
         </Grid>
         <Grid item xs={12}>
           <Grid container className="resume_timeline">
@@ -97,7 +97,7 @@ const Cv = () => {
       <Grid container className="section pb_45">
         <Grid item className="section_title mb_30">
           <span></span>
-          <h6 className="section_title_text">What I am into</h6>
+          <h1 className="section_title_text">What I am into</h1>
         </Grid>
         <Grid item xs={12}>
           <Grid container spacing={3} justify="space-around">
