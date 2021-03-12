@@ -1,5 +1,6 @@
 import { Grid, Icon, Paper, TextField, Typography } from "@material-ui/core";
 import React from "react";
+
 import "./Cv.css";
 import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
 import SchoolIcon from "@material-ui/icons/School";

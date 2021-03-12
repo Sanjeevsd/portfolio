@@ -1,19 +1,16 @@
 import "./App.css";
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
-import Profile from "./components/Profile/Profile";
-import Portfolio from "./pages/Portfolio/Portfolio";
-import Certificates from "./pages/Certificates/Certificates";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Cv from "./pages/Cv/Cv";
+import { Certificates, Cv, Portfolio, Covid } from "./pages";
+
+import { Profile, Header, Footer } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <Container className={"top_60"}>
-      <Grid container spacing={"7"}>
+      <Grid container spacing={5}>
         <Grid item xs={12} sm={12} lg={3} md={4}>
           <Profile />
         </Grid>
@@ -27,6 +24,9 @@ function App() {
                 </Route>
                 <Route path="/certificate">
                   <Certificates />
+                </Route>
+                <Route path="/Covid">
+                  <Covid />
                 </Route>
                 <Route path="/">
                   <Cv />

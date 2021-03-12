@@ -1,0 +1,6 @@
+.containers {
+  padding-top: 50px;
+  display: flex !important;
+  justify-content: center !important;
+  width: 85% !important;
+}

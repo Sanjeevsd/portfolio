@@ -43,10 +43,20 @@ const Header = (prop) => {
           >
             Certificate
           </Nav.Link>
+          <Nav.Link
+            as={NavLink}
+            to="/covid"
+            className={
+              pathName === "/Covid" ? "header_link_active" : "header_link"
+            }
+          >
+            Covid19
+          </Nav.Link>
         </Nav>
         <div className="header_right">
-          {Object.keys(resumeData.social).map((key) => (
+          {Object.keys(resumeData.social).map((key, i) => (
             <a
+              key={i}
               href={resumeData.social[key].link}
               target="_blank"
               rel="noopener noreferrer"
