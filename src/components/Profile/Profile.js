@@ -9,7 +9,7 @@ import TimelineItem from "@material-ui/lab/TimelineItem";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import Custombutton from "../Button/Button";
-import resume from "../../assets/cv.pdf";
+import resume from "../../assets/cv-sanjeev.pdf";
 const CustomTimelinItem = ({ title, text, link }) => (
   <TimelineItem>
     <CustomTimelineSeperator />
