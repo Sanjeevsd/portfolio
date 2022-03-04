@@ -19,7 +19,7 @@ const resumeData = {
   address: "KTM Nepal",
   phone: "9818192165",
   about_me:
-    "I am a software engineer passionate about building excellent software that improves the lives of those around me. I specialize in creating software/Programs like Web Apps, Desktop Apps, AI/ML models, Mobile applications.I Have interest in Fullstack devlopment and AI/machine Learning. \n\n What would you do if you had a software expert available at your fingertips? Find out by reaching with out to me.",
+    "I am a software engineer passionate about building excellent software that improves the lives of those around me. I specialize in creating software/Applications like Web Apps, Desktop Apps, AI/ML models and Mobile applications.I Have professional experience in Fullstack devlopment and some knowledge in AI/machine Learning. \n\n What would you do if you had a software expert available at your fingertips? Find out by reaching with out to me.",
   social: {
     Facebook: {
       link: "https://www.facebook.com/sanzeevd",
@@ -50,28 +50,36 @@ const resumeData = {
     },
     {
       title: "BE Computer Science :KEC",
-      date: "2073 Batch -> present Running",
-      description: "Currently Studying",
+      date: "2073/2077 Batch",
     },
   ],
   projects: [
     {
-      title: "EClass (College Minor Porject)",
-      link: "https://github.com/Sanjeevsd/eCLASS",
-      description:
-        "Team communications, information and discussion forum recommending app.",
+      title: "Poshyak",
+      link: "https://poshyak.com/",
+      description: "Nepal First MultiVendor Clothing E-commerce website.",
     },
     {
-      title: "Nepali character Recognition",
-      link: "https://github.com/Sanjeevsd/Nepali-CharacterRecognization",
+      title: "Taxmambo /BookMambo (web+App)",
+      link: "https://taxmambo.com/",
       description:
-        "System which recognizes the respective Nepali character using CNN model",
+        "Subscription based Bookeeping App to track the taxes and manage the transactions through the app.",
     },
     {
-      title: "Pstack (College Major Project)",
-      link: "https://github.com/Sanjeevsd/pstack",
+      title: "Wishposh",
+      link: "https://wishposh.com",
+      description: "US based furniture e-commerse website",
+    },
+    {
+      title: "AajProperty",
+      link: "https://aajproperty.com",
+      description: "Dubai based real-estate broker company",
+    },
+    {
+      title: "Brokerterminal",
+      link: "https://brokerterminal.com",
       description:
-        "Project Recommendation system using K-means Algorithm based on users interests.",
+        "Real-estate broker sharing platform, to sell or buy properties from the members in the terminal",
     },
   ],
   services: [
@@ -100,19 +108,27 @@ const resumeData = {
   skills: [
     {
       title: "Front-End",
-      description: ["HTML", "CSS", "JavaScript", "Bootstrap", "ReactJs"],
+      description: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "ReactJs",
+        "NextJs",
+        "MaterialUi",
+      ],
     },
     {
       title: "Back-End",
-      description: ["Python", "Django", "Kotlin", "C++"],
+      description: ["Python", "Django", "NodeJs", "Kotlin", "C++"],
     },
     {
       title: "Database",
-      description: ["Firebase", "mySQL", "MongoDB"],
+      description: ["Firebase", "SQL", "MongoDB"],
     },
     {
       title: "Version Control",
-      description: ["Git", "GitHub", "BitBucket"],
+      description: ["Git", "GitHub", "BitBucket", "GitLab"],
     },
   ],
   portfolio: [

@@ -68,7 +68,10 @@ const Cv = () => {
             {/* Projects */}
             <Grid item sm={12} md={6}>
               <Grid item sm={12} md={6}>
-                <CustomTimeline title={"Projects"} icon={<DeveloperModeIcon />}>
+                <CustomTimeline
+                  title={"Professional Projects"}
+                  icon={<DeveloperModeIcon />}
+                >
                   {resumeData.projects.map((project) => (
                     <TimelineItem>
                       <CustomTimelineSeperator />
