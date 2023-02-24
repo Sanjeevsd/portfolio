@@ -70,17 +70,17 @@ const resumeData = {
       link: "https://wishposh.com",
       description: "US based furniture e-commerse website",
     },
-    {
-      title: "AajProperty",
-      link: "https://aajproperty.com",
-      description: "Dubai based real-estate broker company",
-    },
-    {
-      title: "Brokerterminal",
-      link: "https://brokerterminal.com",
-      description:
-        "Real-estate broker sharing platform, to sell or buy properties from the members in the terminal",
-    },
+    // {
+    //   title: "AajProperty",
+    //   link: "https://aajproperty.com",
+    //   description: "Dubai based real-estate broker company",
+    // },
+    // {
+    //   title: "Brokerterminal",
+    //   link: "https://brokerterminal.com",
+    //   description:
+    //     "Real-estate broker sharing platform, to sell or buy properties from the members in the terminal",
+    // },
   ],
   services: [
     {
